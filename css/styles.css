@@ -120,7 +120,7 @@ position: relative;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: inherit;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-link::after {
@@ -438,7 +438,7 @@ position: relative;
   justify-content: center;
   align-items: center;
 
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-item:not(:last-child) {
@@ -457,6 +457,7 @@ position: relative;
 
 .client-icon {
   fill: var(--icon-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* --------------Подвал-------------- */
