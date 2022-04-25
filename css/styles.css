@@ -154,6 +154,7 @@ position: relative;
 .header-icon {
   margin-right: 10px;
   fill: var(--secondary-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact:hover .header-icon,
@@ -405,6 +406,7 @@ position: relative;
 
 .team-icon {
   fill: var(--icon-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /*---------------Клиенты-------------*/
 .clients {
@@ -594,7 +596,8 @@ margin-right: 10px;
   border-radius: 4px;
   padding: 6px 22px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-   color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+   box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .project-btn:hover,
@@ -610,7 +613,6 @@ margin-right: 10px;
 .project-item {
   margin-right: 30px;
   margin-bottom: 30px;
-  
 }
 
 .project-item:nth-child(3n) {
@@ -625,7 +627,7 @@ margin-right: 10px;
 .project-link {
   display: block;
   color: inherit;
-
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .project-link:hover, 
